@@ -1,0 +1,16 @@
+main h1{
+    font-family:"Comic Sans MS", sans-serif;
+}
+
+main {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxyJCeA5WO3axfJ7tTD8-1ut4A-_6B0EaLNA&usqp=CAU');
+}
+
+article {
+    background-color: darkblue; 
+}
+
+article p{
+    color: mediumpurple;
+    text-align: center;
+}
