@@ -1,0 +1,137 @@
+/*RESET*/
+
+* {margin: 0; padding: 0; font-size: 100%; box-sizing: border-box; font-family: 'Open Sans', sans-serif;} 
+header, ul {list-style: none;}
+a{text-decoration: none; cursor: pointer; opacity: 0.9;}
+a:hover {opacity: 1;}
+
+/*HEADER*/
+
+body{
+
+}
+
+header{
+	display: flex;
+	height: 160px;
+	flex-direction: row;
+	background-color: bisque;
+	justify-content: space-between;
+	padding: 20px 50px;
+}
+
+.logo{
+	width: 200px;
+	height: 120px;
+	padding-left: 20px;
+}
+
+.navbar nav ul{
+	float: right;
+}
+
+.navbar-item{
+	display: inline;
+	font-size: 15px;
+	padding-right: 7px;
+} 
+
+.navbar-item:last-child{
+	padding-right: 3px;
+}
+
+.navbar .navbar-ajusta-fonte{
+	display: flex;
+}
+
+#fonte-esquerda{
+	color: black;
+	font-size: 15px;
+	display: inline;
+	padding-right: 3px;
+}
+
+#fonte-centro{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;	
+	display: inline;
+	padding-right: 3px;
+}
+
+#fonte-direita{
+	display: inline;
+	color: white;
+	font-size: 15px;
+	background-color: black;
+}
+
+.wrapper-buscador{
+	display:  flex;
+	margin-top: 17px;	
+	float:  right;
+	font-size: 15px;
+}
+
+#button-buscador-curiosidades{
+	display: inline;
+	font-size: 15px;
+	width: 105px;
+	height: 17px;
+	margin-right: 22px;	
+	box-shadow: 1px 1px 0 black;
+	border-radius: 0px;
+}
+
+#input-buscador-curiosidades{
+	display: inline;
+	font-size: 15px;
+	width: 170px;
+	height: 17px;
+	border-radius: 0px;	
+}
+
+#button-realizar-busca{
+	display: inline;
+	font-size: 15px;
+	width: 24px;
+	height: 19px;
+	margin-left: -2px;
+	box-shadow: 1px 1px 0 black;
+	border-radius: 0px;		
+}
+
+.wrapper-pesquisa-avancada{
+	display:  flex;
+	float: right;
+	font-size: 13px;
+}
+
+#link-pesquisa-avancada{
+	display: inline;
+}
+
+.wrapper-assuntos{
+	display:  flex;
+	margin-top: 20px;
+	float: right;
+	font-size: 14px;
+
+}
+
+.assunto-universo{
+	display: inline;
+	padding-right: 17px;
+	padding-left: 17px;
+	border: 2px solid black;		
+}
+
+
+@media(max-width: 400px){
+	header{
+		flex-direction: column;
+	}
+	header img {
+		margin-bottom: 5%;
+	}
+}
