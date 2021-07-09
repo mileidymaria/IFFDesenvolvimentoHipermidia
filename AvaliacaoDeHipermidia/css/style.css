@@ -200,7 +200,7 @@ main{
 #lista-topicos-mais-acessados{
 	margin-top: 1px;
 	border: 2px solid white;
-		
+	padding-left: 5px;	
 }
 
 .topico-popular{
