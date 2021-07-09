@@ -189,7 +189,8 @@ main{
 
 #label-topicos-mais-acessados{
 	font-weight: bold;
-	font-size: 16px;
+	font-style: italic;
+	font-size: 20px;
 	margin-bottom: 9px;
 }
 
