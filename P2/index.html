@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>P2 - Hipermídia</title>
+	<script type="text/javascript" src="p2.js"></script>
+</head>
+<body>
+<p><h2>Formulário de reservas</h2></p></header>
+    <form>
+      <fieldset>
+        <label for="name">Nome:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          style="border-style: inset"
+        /><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input
+          type="text"
+          id="telefone"
+          name="telefone"
+          style="border-style: inset"
+        /><br><br>        
+
+        <label>Data entrada:</label>
+        <input
+          type="date"
+          id="diaentrada"
+          name="dia"
+          placeholder="data de entrada, ex.: 25/11/1999"
+          style="width: 200px; border-style: inset"
+        /><br /><br />
+
+        <label>Data saída:</label>
+        <input
+          type="date"
+          id="diasaida"
+          name="dia"
+          placeholder="data de saída, ex.: 27/11/2021"
+          style="width: 200px; border-style: inset"
+        /><br /><br />  
+
+        <label>Tipo de quarto:</label>
+        <select name="select" id="tipo">
+          <option value="single">Single</option>
+          <option value="double" selected>Double</option>
+          <option value="triplo">Triplo</option></select
+        ><br /><br />
+
+        <label for="numcriancas">Numero de crianças:</label>
+        <input
+          type="number"
+          id="numcriancas"
+          name="numcriancas"
+          style="width: 60px; border-style: inset"
+        /><br /><br />         
+
+		<button  onclick="reservar(form.diaentrada.value, form.diasaida.value, form.tipo.value)">
+			Concluir reserva
+		</button>	
+
+      </fieldset>
+    </form>
+    <div>Por: Mileidy Maria Ribeiro Elias Bento</div>
+
+
+</body>
+</html>
